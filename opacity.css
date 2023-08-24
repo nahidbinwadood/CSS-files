@@ -1,0 +1,14 @@
+.bg{
+    width: 660px;
+    height:500px;
+    background: url(Pictures/star.png) no-repeat center;
+    overflow:hidden;
+}
+.box p{
+    color: red;
+    background-color: black;
+    font: size 50px;
+    padding:10px;
+    margin-top:10px;
+
+}

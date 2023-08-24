@@ -1,0 +1,14 @@
+.nahid{
+    margin:20px;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    border: 5px black solid;
+    outline: solid red 4px;
+    outline-offset: 1px;
+}
+p{
+    color: blueviolet;
+    text-align: center;
+    font-size: 20px;
+}

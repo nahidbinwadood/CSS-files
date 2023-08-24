@@ -1,0 +1,14 @@
+h1{
+    color: black;
+    text-align: center;
+    background-color: greenyellow;
+}
+body{
+    background-color: brown;
+    background-image:url(Pictures/dp.jpg) ;
+    background-repeat: no-repeat;
+}
+p{
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+h1{
+    color:tomato;
+}
+h2{
+    color:rgb(255,99,71);
+}
+p{
+    color: #00f;
+}
+
+#box2{
+    width:400px;
+    height:400px;
+    background: radial-gradient(#00000f,#f00)
+}

@@ -1,0 +1,126 @@
+body{
+    margin:0px;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+/*Header Start*/
+header{
+    width: 100%;
+    background-color: rgb(59, 5, 35);
+    color: whitesmoke;
+    display: flex;
+}
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 35px;
+   
+
+}
+.navbar{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-left: 240px;
+}
+.navbar ul{
+    list-style: none;
+    
+}
+.navbar ul li {
+    line-height: 50px;
+    height:50px;
+    width:170px;
+    border:1px solid black;
+    text-align: center;
+    font-weight:bold;
+    background-color: #262626;
+    font-size: 16px;
+    float: left;
+    text-transform: uppercase;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color: rgb(255, 3, 3);
+    transition: all ease-in .5s ;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+/*Header End*/
+
+
+/*Form Start*/
+.form{
+    background-color: crimson;
+    margin:0 auto;
+    text-align: center;
+    font-size: 40px;
+    width:fit-content;
+    height: fit-content;
+    Padding: 30px 120px;
+    Margin-top:120px;
+    border-radius: 5%;
+}
+.form input{
+    border-radius: 30px;
+    border-color: crimson;
+    padding:5px 50px;
+}
+.form .c1{
+    font-weight: bold;
+}
+/*Form End*/
+
+
+/*Footer Start*/
+footer{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+    width:100%;
+    height: 200px;  
+}
+.head{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.para p{
+    color: white;
+    margin: 0px auto;
+    position:relative;
+    top:-25px;
+}
+.icon{
+    position:relative;
+    text-align: center;
+    font-size: 50px;
+    top:-10px;
+    color: white;
+}
+.copy{
+    position:relative;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    background-color: black;
+    top:-10px;
+    width:100%;
+    line-height:50px;
+}

@@ -1,0 +1,11 @@
+.sprite{
+    width: 86px;
+    height: 86px;
+    background-image: url(Pictures/NicePng_sprite-logo-png_487892.png);
+    background-position: 0 -61px;
+    background-repeat: no-repeat;
+    border-radius:50% ;
+}
+.sprite:hover{
+    background-position:0 -146px;
+}
